@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_submit" xml:space="preserve">
+    <value>GÖNDER</value>
+  </data>
+  <data name="default_address" xml:space="preserve">
+    <value>Lütfen adresinizi girin</value>
+  </data>
+  <data name="default_agreement" xml:space="preserve">
+    <value>BET8'in Şartlar ve Koşulları, Kuralları, Gizlilik Politikası, Çerez Politikası ve yaş doğrulaması ile ilgili politikalarını okuduğunuzu ve anladığınızı onaylamak için lütfen işaretleyin.</value>
+  </data>
+  <data name="default_captcha" xml:space="preserve">
+    <value>Lütfen doğrulama kodunu girin</value>
+  </data>
+  <data name="default_city" xml:space="preserve">
+    <value>Lütfen şehrinizi girin</value>
+  </data>
+  <data name="default_confirm_password" xml:space="preserve">
+    <value>Lütfen şifrenizi tekrar girin</value>
+  </data>
+  <data name="default_contact_no" xml:space="preserve">
+    <value>Lütfen iletişim numaranızı girin</value>
+  </data>
+  <data name="default_contact_no_country" xml:space="preserve">
+    <value>Lütfen iletişim no ülke kodunuzu seçin</value>
+  </data>
+  <data name="default_currency" xml:space="preserve">
+    <value>Lütfen tercih ettiğiniz para birimini seçiniz.&lt;br /&gt;Seçilen para birimi değiştirilemez.</value>
+  </data>
+  <data name="default_current_password" xml:space="preserve">
+    <value>Lütfen mevcut şifrenizi girin</value>
+  </data>
+  <data name="default_dob" xml:space="preserve">
+    <value>Lütfen geçerli DOB girin</value>
+  </data>
+  <data name="default_email" xml:space="preserve">
+    <value>Lütfen e-posta adresinizi girin</value>
+  </data>
+  <data name="default_first_name" xml:space="preserve">
+    <value>Lütfen sadece adınızı girin. &lt;br /&gt;Kart işlemleri, çekler ve banka havaleleri yalnızca adın hesap sahibininkiyle eşleşmesi durumunda işlenebilir.</value>
+  </data>
+  <data name="default_gender" xml:space="preserve">
+    <value>Cinsiyet</value>
+  </data>
+  <data name="default_language" xml:space="preserve">
+    <value>Lütfen tercih ettiğiniz dili seçin</value>
+  </data>
+  <data name="default_last_name" xml:space="preserve">
+    <value>Lütfen sadece soyadınızı giriniz. &lt;br /&gt;Kart işlemleri, çekler ve banka havaleleri yalnızca adın hesap sahibininkiyle eşleşmesi durumunda işlenebilir.</value>
+  </data>
+  <data name="default_password" xml:space="preserve">
+    <value>Lütfen şifrenizi girin</value>
+  </data>
+  <data name="default_postal" xml:space="preserve">
+    <value>Lütfen posta kodunuzu girin</value>
+  </data>
+  <data name="default_security_answer" xml:space="preserve">
+    <value>Lütfen güvenlik cevabınızı girin.</value>
+  </data>
+  <data name="default_security_question" xml:space="preserve">
+    <value>Lütfen bir güvenlik sorusu seçin.</value>
+  </data>
+  <data name="default_title" xml:space="preserve">
+    <value>Lütfen tercih ettiğiniz başlığı seçin.</value>
+  </data>
+  <data name="default_username" xml:space="preserve">
+    <value>Lütfen istediğiniz kullanıcı adını girin</value>
+  </data>
+  <data name="lbl_address" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="lbl_agreement" xml:space="preserve">
+    <value>En az 18 yaşındayım ve &lt;a href='{0}' target=_blank&gt; Şartlar ve Koşullar, Kurallar, Gizlilik Politikası, Çerez Politikası ve &lt;a href&lt;/a&gt;='{1}' data-toggle='modal' data-target='#age_policy' &gt;yaş doğrulamasına ilişkin politikaları okudum, kabul ediyorum ve kabul ediyorum&lt;/a&gt;.</value>
+  </data>
+  <data name="lbl_captcha" xml:space="preserve">
+    <value>Doğrulama Kodu</value>
+  </data>
+  <data name="lbl_city" xml:space="preserve">
+    <value>Şehir</value>
+  </data>
+  <data name="lbl_confirm_password" xml:space="preserve">
+    <value>Confrim şifresi</value>
+  </data>
+  <data name="lbl_contact_no" xml:space="preserve">
+    <value>İrtibat Numarası</value>
+  </data>
+  <data name="lbl_country" xml:space="preserve">
+    <value>Ülke</value>
+  </data>
+  <data name="lbl_currency" xml:space="preserve">
+    <value>Para birimi</value>
+  </data>
+  <data name="lbl_current_password" xml:space="preserve">
+    <value>Geçerli Şifre</value>
+  </data>
+  <data name="lbl_dob" xml:space="preserve">
+    <value>Doğum tarihi</value>
+  </data>
+  <data name="lbl_email" xml:space="preserve">
+    <value>E-posta Adresiniz</value>
+  </data>
+  <data name="lbl_first_name" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="lbl_forgot_login" xml:space="preserve">
+    <value>Zaten üye misiniz? &lt;a href="/forgot_login.aspx"&gt;Giriş Bilgilerinizi bulun&lt;/a&gt;</value>
+  </data>
+  <data name="lbl_gender" xml:space="preserve">
+    <value>Cinsiyet</value>
+  </data>
+  <data name="lbl_language" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="lbl_last_name" xml:space="preserve">
+    <value>Soyadı</value>
+  </data>
+  <data name="lbl_new_password" xml:space="preserve">
+    <value>Yeni şifre</value>
+  </data>
+  <data name="lbl_odds" xml:space="preserve">
+    <value>Oran</value>
+  </data>
+  <data name="lbl_password" xml:space="preserve">
+    <value>Parola</value>
+  </data>
+  <data name="lbl_policy_age" xml:space="preserve">
+    <value>Yaş Doğrulama Politikası</value>
+  </data>
+  <data name="lbl_postal" xml:space="preserve">
+    <value>Posta</value>
+  </data>
+  <data name="lbl_security_answer" xml:space="preserve">
+    <value>Güvenlik Yanıtı</value>
+  </data>
+  <data name="lbl_security_question" xml:space="preserve">
+    <value>Güvenlik Sorusu</value>
+  </data>
+  <data name="lbl_title" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="lbl_username" xml:space="preserve">
+    <value>Kullanıcı adı</value>
+  </data>
+  <data name="msg_required" xml:space="preserve">
+    <value>Gerekli alanlar &lt;span class="red"&gt;*&lt;/span&gt;</value>
+  </data>
+  <data name="option_gender_f" xml:space="preserve">
+    <value>Dişi</value>
+  </data>
+  <data name="option_gender_m" xml:space="preserve">
+    <value>Erkek</value>
+  </data>
+  <data name="option_security_question" xml:space="preserve">
+    <value>Lütfen bir soru seçin</value>
+  </data>
+  <data name="option_title_miss" xml:space="preserve">
+    <value>Bayan</value>
+  </data>
+  <data name="option_title_mr" xml:space="preserve">
+    <value>Bay.</value>
+  </data>
+  <data name="option_title_mrs" xml:space="preserve">
+    <value>Bayan.</value>
+  </data>
+</root>

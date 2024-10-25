@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="link_banking_options" xml:space="preserve">
+    <value>Bankacılık Seçenekleri</value>
+  </data>
+  <data name="link_bingo" xml:space="preserve">
+    <value>BİNGO</value>
+  </data>
+  <data name="link_contact_us" xml:space="preserve">
+    <value>Bize Ulaşın</value>
+  </data>
+  <data name="link_new" xml:space="preserve">
+    <value>YENİ</value>
+  </data>
+  <data name="link_binary" xml:space="preserve">
+    <value>İKİLİ</value>
+  </data>
+  <data name="link_grab_a_friend" xml:space="preserve">
+    <value>Bir Üye Kap</value>
+  </data>
+  <data name="link_help_centre" xml:space="preserve">
+    <value>Bilgi Merkezi</value>
+  </data>
+  <data name="link_home" xml:space="preserve">
+    <value>EV</value>
+  </data>
+  <data name="link_lottery" xml:space="preserve">
+    <value>PİYANGO</value>
+  </data>
+  <data name="link_live_casino" xml:space="preserve">
+    <value>CANLI CASINO</value>
+  </data>
+  <data name="link_live_help" xml:space="preserve">
+    <value>Canlı Sohbet</value>
+  </data>
+  <data name="link_mobile" xml:space="preserve">
+    <value>CEP</value>
+  </data>
+  <data name="link_notification" xml:space="preserve">
+    <value>Bildirim</value>
+  </data>
+  <data name="link_poker" xml:space="preserve">
+    <value>POKER</value>
+  </data>
+  <data name="link_promotions" xml:space="preserve">
+    <value>PROMOSYONLAR</value>
+  </data>
+  <data name="link_sports" xml:space="preserve">
+    <value>SPOR</value>
+  </data>
+  <data name="link_games" xml:space="preserve">
+    <value>YUVALARI</value>
+  </data>
+  <data name="link_rewards" xml:space="preserve">
+    <value>Ödül Kulübü</value>
+  </data>
+  <data name="link_login" xml:space="preserve">
+    <value>OTURUM AÇMA</value>
+  </data>
+  <data name="link_register" xml:space="preserve">
+    <value>BİRLEŞTİRMEK</value>
+  </data>
+  <data name="btn_close_modal" xml:space="preserve">
+    <value>Kapatmak</value>
+  </data>
+  <data name="link_deposit" xml:space="preserve">
+    <value>Pey</value>
+  </data>
+  <data name="link_logout" xml:space="preserve">
+    <value>OTURUM KAPATMA</value>
+  </data>
+  <data name="link_show_balance" xml:space="preserve">
+    <value>Bakiye/Puanlar</value>
+  </data>
+  <data name="link_withdrawal" xml:space="preserve">
+    <value>Çekilme</value>
+  </data>
+  <data name="link_private_message" xml:space="preserve">
+    <value>Ileti</value>
+  </data>
+  <data name="msg_multiple_login" xml:space="preserve">
+    <value>Çoklu oturum açma algılandı, lütfen yeniden yönlendirmeden sonra giriş yapın</value>
+  </data>
+  <data name="btn_view_announcement" xml:space="preserve">
+    <value>Tümünü Gör</value>
+  </data>
+  <data name="lbl_welcome" xml:space="preserve">
+    <value>Hoş geldin</value>
+  </data>
+  <data name="link_fund_transfer" xml:space="preserve">
+    <value>Aktarmak</value>
+  </data>
+  <data name="link_games_crescendo" xml:space="preserve">
+    <value>KREŞENDO</value>
+  </data>
+  <data name="link_games_palazzo" xml:space="preserve">
+    <value>PALAZZO</value>
+  </data>
+  <data name="link_games_bravado" xml:space="preserve">
+    <value>CESARET</value>
+  </data>
+  <data name="link_forgot_login" xml:space="preserve">
+    <value>Giriş bilgilerinizi mi unuttunuz?</value>
+  </data>
+  <data name="link_profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="link_sports_a" xml:space="preserve">
+    <value>a-SPOR</value>
+  </data>
+  <data name="link_wsports" xml:space="preserve">
+    <value>e-SPOR</value>
+  </data>
+  <data name="link_wsports_inplay" xml:space="preserve">
+    <value>OYUN İÇİ</value>
+  </data>
+  <data name="lbl_brand" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_img_description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_link_title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_VIPB" xml:space="preserve">
+    <value>Mavi</value>
+  </data>
+  <data name="lbl_VIPD" xml:space="preserve">
+    <value>Elmas</value>
+  </data>
+  <data name="lbl_VIPG" xml:space="preserve">
+    <value>Altın</value>
+  </data>
+  <data name="lbl_VIPP" xml:space="preserve">
+    <value>Platin</value>
+  </data>
+  <data name="link_sports_fund_transfer" xml:space="preserve">
+    <value>Fon Transferi</value>
+  </data>
+  <data name="link_color" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="link_pmahjong" xml:space="preserve">
+    <value>POKER MAHJONG</value>
+  </data>
+  <data name="msg_logout" xml:space="preserve">
+    <value>Oturumunuz kapatıldı</value>
+  </data>
+  <data name="lbl_calendar" xml:space="preserve">
+    <value>Seksi Takvim</value>
+  </data>
+  <data name="lbl_blog" xml:space="preserve">
+    <value>BİLDİRİ</value>
+  </data>
+  <data name="link_fund_transfer_special" xml:space="preserve">
+    <value>Fonlar $</value>
+  </data>
+  <data name="link_minigame_hide" xml:space="preserve">
+    <value>Mini Oyunları Gizle</value>
+  </data>
+  <data name="link_minigame_show" xml:space="preserve">
+    <value>Mini Oyunları Göster</value>
+  </data>
+  <data name="lbl_winner" xml:space="preserve">
+    <value>Kazanan</value>
+  </data>
+  <data name="lbl_EPL" xml:space="preserve">
+    <value>Fantezi EPL 2015/16</value>
+  </data>
+  <data name="link_rebate_statement" xml:space="preserve">
+    <value>İndirim Beyanı</value>
+  </data>
+  <data name="link_change_password" xml:space="preserve">
+    <value>Şifre Değiştir</value>
+  </data>
+  <data name="link_history" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="link_rebate_cashback" xml:space="preserve">
+    <value>İndirim / Cashback</value>
+  </data>
+  <data name="link_fund" xml:space="preserve">
+    <value>Fon $</value>
+  </data>
+  <data name="link_virtual" xml:space="preserve">
+    <value>SANAL</value>
+  </data>
+  <data name="msg_noannouncement" xml:space="preserve">
+    <value>İlgili duyuru yok</value>
+  </data>
+  <data name="link_texasmahjong" xml:space="preserve">
+    <value>TEKSAS MAHJONG</value>
+  </data>
+  <data name="link_fishing" xml:space="preserve">
+    <value>BALIKÇILIK OYUNU</value>
+  </data>
+  <data name="link_games1" xml:space="preserve">
+    <value>OYUNLAR</value>
+  </data>
+  <data name="link_close" xml:space="preserve">
+    <value>Kapatmak</value>
+  </data>
+  <data name="link_p2p" xml:space="preserve">
+    <value>P2P</value>
+  </data>
+  <data name="link_superbull" xml:space="preserve">
+    <value>SÜPER BOĞA</value>
+  </data>
+  <data name="link_world_cup" xml:space="preserve">
+    <value>DÜNYA KUPASI</value>
+  </data>
+  <data name="link_racingreel" xml:space="preserve">
+    <value>YARIŞ MAKARALARI</value>
+  </data>
+  <data name="link_thailottery" xml:space="preserve">
+    <value>TAYLAND PIYANGO</value>
+  </data>
+  <data name="link_sode" xml:space="preserve">
+    <value>SOO DE</value>
+  </data>
+  <data name="link_daily_attendance" xml:space="preserve">
+    <value>Günlük Katılım</value>
+  </data>
+  <data name="link_account_switch" xml:space="preserve">
+    <value>Hesap Değiştir</value>
+  </data>
+  <data name="link_fantasy_sports" xml:space="preserve">
+    <value>FANTEZİ</value>
+  </data>
+  <data name="link_freebet" xml:space="preserve">
+    <value>Freebet</value>
+  </data>
+  <data name="crypto" xml:space="preserve">
+    <value>Şifreleme</value>
+  </data>
+</root>

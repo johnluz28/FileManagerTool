@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_close_modal" xml:space="preserve">
+    <value>Kapatmak</value>
+  </data>
+  <data name="lbl_live_help" xml:space="preserve">
+    <value>Canlı Yardım</value>
+  </data>
+  <data name="lbl_message" xml:space="preserve">
+    <value>İleti</value>
+  </data>
+  <data name="link_rewards" xml:space="preserve">
+    <value>Ödül Kulübü</value>
+  </data>
+  <data name="lbl_title" xml:space="preserve">
+    <value>Hesap</value>
+  </data>
+  <data name="link_balance" xml:space="preserve">
+    <value>Bakiyem</value>
+  </data>
+  <data name="link_cashier" xml:space="preserve">
+    <value>Kasiyer</value>
+  </data>
+  <data name="link_change_password" xml:space="preserve">
+    <value>Şifre Değiştir</value>
+  </data>
+  <data name="link_claim" xml:space="preserve">
+    <value>Freebet</value>
+  </data>
+  <data name="link_deposit" xml:space="preserve">
+    <value>Pey</value>
+  </data>
+  <data name="link_edit_profile" xml:space="preserve">
+    <value>Düzenlemek</value>
+  </data>
+  <data name="link_history" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="link_history_depositwithdrawal" xml:space="preserve">
+    <value>Para Yatırma/Çekme</value>
+  </data>
+  <data name="link_history_fund_transfer" xml:space="preserve">
+    <value>Fon Transferi</value>
+  </data>
+  <data name="link_history_promotion_claim" xml:space="preserve">
+    <value>Promosyon Talebi</value>
+  </data>
+  <data name="link_history_referral" xml:space="preserve">
+    <value>Tavsiye Bonusu</value>
+  </data>
+  <data name="link_profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="link_transfer" xml:space="preserve">
+    <value>Aktarmak</value>
+  </data>
+  <data name="link_withdrawal" xml:space="preserve">
+    <value>Çekilme</value>
+  </data>
+  <data name="lbl_balance" xml:space="preserve">
+    <value>Bakiye&lt;br /&gt; (Poker + F7 &amp;; F8 Balıkçılık + Fantezi hariç)</value>
+  </data>
+  <data name="lbl_rewards_point" xml:space="preserve">
+    <value>Ödül Puanları</value>
+  </data>
+  <data name="link_fund_management" xml:space="preserve">
+    <value>Fon Yönetimi</value>
+  </data>
+  <data name="link_fund_transfer" xml:space="preserve">
+    <value>Fon Yönetimi</value>
+  </data>
+  <data name="link_private_message" xml:space="preserve">
+    <value>Ileti</value>
+  </data>
+  <data name="account_safety_100" xml:space="preserve">
+    <value>Tam Doğrulanmış</value>
+  </data>
+  <data name="account_safety_25" xml:space="preserve">
+    <value>Kısmi Doğrulanmış</value>
+  </data>
+  <data name="account_safety_50" xml:space="preserve">
+    <value>Kısmi Doğrulanmış</value>
+  </data>
+  <data name="account_safety_75" xml:space="preserve">
+    <value>Kısmi Doğrulanmış</value>
+  </data>
+  <data name="lbl_account_safety_title" xml:space="preserve">
+    <value>Hesap Güvenliği:</value>
+  </data>
+  <data name="data-content-bank-details" xml:space="preserve">
+    <value>Hızlı işlem için &amp;quot;Banka Bilgilerini&amp;quot; güncelleyin</value>
+  </data>
+  <data name="data-content-email" xml:space="preserve">
+    <value>&amp;quot;E-posta Adresinizi&amp;quot; daha yüksek güvenlik seviyesiyle doğrulayın ve &lt;span class='blue'&gt;[cur] [amt] FreeBet kazanın&lt;/span&gt;</value>
+  </data>
+  <data name="data-content-phone" xml:space="preserve">
+    <value>&amp;quot;İletişim Numaranızı&amp;quot; daha yüksek güvenlik seviyesiyle doğrulayın ve &lt;span class='blue'&gt;[cur] [amt] FreeBet kazanın&lt;/span&gt;</value>
+  </data>
+  <data name="data-content-registered" xml:space="preserve">
+    <value>&amp;quot;Profilinizi&amp;quot; daha yüksek güvenlik seviyesiyle güncelleyin ve &lt;span class='blue'&gt;[cur] [amt] FreeBet kazanın&lt;/span&gt;</value>
+  </data>
+  <data name="link_safety_bankingdetail" xml:space="preserve">
+    <value>Banka Bilgileri</value>
+  </data>
+  <data name="link_safety_contact" xml:space="preserve">
+    <value>İletişim Numarası Doğrulama</value>
+  </data>
+  <data name="link_safety_email" xml:space="preserve">
+    <value>E-posta Doğrulama</value>
+  </data>
+  <data name="locked_wallet" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="lock_amount_label" xml:space="preserve">
+    <value>Ana (Kilitli)</value>
+  </data>
+  <data name="link_address" xml:space="preserve">
+    <value>Teslimat Adresi</value>
+  </data>
+  <data name="btn_send_verification" xml:space="preserve">
+    <value>DOĞRULAMA KODU GÖNDER</value>
+  </data>
+  <data name="lbl_verify_contact" xml:space="preserve">
+    <value>İletişim numaranızı doğrulamak için "Doğrulama Kodu Gönder"e basın "+[contact_or_email]"</value>
+  </data>
+  <data name="lbl_verify_email" xml:space="preserve">
+    <value>E-posta adresinizi doğrulamak için "Doğrulama Kodu Gönder"e basın "[contact_or_email]"</value>
+  </data>
+  <data name="lbl_security_level" xml:space="preserve">
+    <value>Güvenlik Seviyeniz</value>
+  </data>
+  <data name="data-content-email-done" xml:space="preserve">
+    <value>E-posta Adresi doğrulandı.</value>
+  </data>
+  <data name="data-content-phone-done" xml:space="preserve">
+    <value>İletişim Numarası doğrulandı.</value>
+  </data>
+  <data name="lbl_VIPB" xml:space="preserve">
+    <value>MAVİ</value>
+  </data>
+  <data name="lbl_VIPD" xml:space="preserve">
+    <value>ELMAS</value>
+  </data>
+  <data name="lbl_VIPG" xml:space="preserve">
+    <value>ALTIN</value>
+  </data>
+  <data name="lbl_VIPP" xml:space="preserve">
+    <value>PLATİN</value>
+  </data>
+  <data name="vip_message" xml:space="preserve">
+    <value>Bizden &lt;a href='{0}' id='private_message1' style='font-size:14px;color:red;'&gt;&lt;span style='font-size:14px'&gt;0&lt;/span&gt; okunmamış&lt;/a&gt; yeni mesaj(lar)ınız var.</value>
+  </data>
+  <data name="link_vip_program" xml:space="preserve">
+    <value>VIP Programı</value>
+  </data>
+  <data name="link_rebate_statement" xml:space="preserve">
+    <value>İndirim / Cashback</value>
+  </data>
+  <data name="link_upload" xml:space="preserve">
+    <value>Karşıya yükleme</value>
+  </data>
+  <data name="popover_locked_wallet" xml:space="preserve">
+    <value>Bu Freebet'in kilidini açmak için minimum [dep_cur] [dep_amt], [cur] [amt] para çekme işlemini gerçekleştirmeniz ve hesabınızı tamamen doğrulamanız gerekir.</value>
+  </data>
+  <data name="data-content-email-claim" xml:space="preserve">
+    <value>&amp;quot;E-posta Adresinizi&amp;quot; daha yüksek güvenlik düzeyiyle doğrulayın.</value>
+  </data>
+  <data name="data-content-phone-claim" xml:space="preserve">
+    <value>&amp;quot;İletişim Numaranızı&amp;quot; daha yüksek güvenlik seviyesiyle doğrulayın.</value>
+  </data>
+  <data name="account_safety_0" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="data-content-registered-normal" xml:space="preserve">
+    <value>Profili Güncelle</value>
+  </data>
+  <data name="link_refer_friend" xml:space="preserve">
+    <value>Bir Üye Kap</value>
+  </data>
+  <data name="VIP_hotline_MSG" xml:space="preserve">
+    <value>Özel VIP Hattı</value>
+  </data>
+  <data name="VIP_hotline_number" xml:space="preserve">
+    <value>0086 2180246688</value>
+  </data>
+  <data name="link_history_adjustment" xml:space="preserve">
+    <value>Ayarlama</value>
+  </data>
+  <data name="lbl_balance_rmb" xml:space="preserve">
+    <value>Bakiye&lt;br /&gt;(Poker + Fantasy hariç)</value>
+  </data>
+  <data name="lbl_balance_usd" xml:space="preserve">
+    <value>Bakiye&lt;br /&gt; (F7 ve F8 Balıkçılık + Fantezi hariç)</value>
+  </data>
+  <data name="lbl_balance_inr" xml:space="preserve">
+    <value>Bakiye&lt;br /&gt;(Poker + Fantasy hariç)</value>
+  </data>
+  <data name="link_daily_attendance" xml:space="preserve">
+    <value>Günlük Katılım</value>
+  </data>
+  <data name="lnk_security" xml:space="preserve">
+    <value>Güvenlik</value>
+  </data>
+  <data name="lbl_registrationSuccessHeader" xml:space="preserve">
+    <value>Tebrikler! W88 ile kaydınız başarılı oldu!</value>
+  </data>
+  <data name="lbl_registrationSuccessMessage" xml:space="preserve">
+    <value>Lütfen para yatırma işleminizi aşağıda yapmaya devam edin.</value>
+  </data>
+  <data name="lbl_registrationUSDTSuccessMessage" xml:space="preserve">
+    <value>Kullanıcı adı &lt;b&gt;{0}&lt;/b&gt; ile kripto hesabı da başarıyla oluşturuldu!&lt;br/&gt;</value>
+  </data>
+</root>

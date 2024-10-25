@@ -62,9 +62,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(18, 89);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 20);
+            this.label2.Size = new System.Drawing.Size(101, 20);
             this.label2.TabIndex = 40;
-            this.label2.Text = "destination :";
+            this.label2.Text = "destination *:";
             // 
             // txtExcelSource
             // 
@@ -81,9 +81,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(18, 38);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(105, 20);
+            this.label4.Size = new System.Drawing.Size(111, 20);
             this.label4.TabIndex = 38;
-            this.label4.Text = "excel source :";
+            this.label4.Text = "excel source *:";
             // 
             // cmdBrowse
             // 

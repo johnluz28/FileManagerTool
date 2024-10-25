@@ -27,6 +27,12 @@ namespace FILE_MANAGER.Forms
                 string excelSource = txtExcelSource.Text.Trim(),
                     destination = txtDestination.Text.Trim();
 
+                if (txtDestination.Text.Trim().Length == 0 || txtExcelSource.Text.Trim().Length == 0)
+                {
+                    MessageBox.Show("Please enter all the required fields!");
+                    return;
+                }
+
                 lookUpSourceEn = new List<LookUpSource>();
                 foreach (var f in AppConfig.LocalizationFolders)
                 {

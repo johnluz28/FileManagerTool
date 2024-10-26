@@ -1,5 +1,7 @@
 ﻿using FILE_MANAGER.Helper;
 using FILE_MANAGER.Model;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
@@ -16,7 +18,7 @@ namespace FILE_MANAGER.Forms
         {
             InitializeComponent();
         }
-        public List<LookUpSource> lookUpSourceEn { get; set; }
+        private List<LookUpSource> lookUpSourceEn { get; set; }
 
         private async void cmdGenerate_Click(object sender, EventArgs e)
         {
@@ -29,6 +31,7 @@ namespace FILE_MANAGER.Forms
 
                 if (txtDestination.Text.Trim().Length == 0 || txtExcelSource.Text.Trim().Length == 0)
                 {
+                    //test
                     MessageBox.Show("Please enter all the required fields!");
                     return;
                 }
@@ -53,8 +56,6 @@ namespace FILE_MANAGER.Forms
             }
         }
 
-
-      
         private void cmdBrowse_Click(object sender, EventArgs e)
         {
             fileDialog.RestoreDirectory = true;
@@ -105,32 +106,12 @@ namespace FILE_MANAGER.Forms
                             Directory.CreateDirectory(destinationFolder);
                         }
 
+                     
                         //create json file
-                        var resxFname = $@"{destinationFolder}/{lang}.json";
-                        using (var tw = new StreamWriter(resxFname))
-                        {
-                            tw.Write("");  //empty all
-                            var sb = new StringBuilder();
-                            sb.AppendLine("{");
-                            sb.AppendLine("  \"items\":[");
+                        var targetPath = $@"{destinationFolder}/{lang}.json";
 
-                            var idx = 0;
-                            foreach (var item in lookups.Items)
-                            {
-
-                                sb.AppendLine("     {");
-                                sb.AppendLine($"         \"id\":{item.Id},");
-                                sb.AppendLine($"         \"name\":\"{item.Name}\"");
-
-                                if (idx < lookups.Items.Count - 1) sb.AppendLine("     },");
-                                else sb.AppendLine("     }");
-                                idx++;
-
-                            }
-                            sb.AppendLine("  ]");
-                            sb.AppendLine("}");
-                            tw.Write(sb);
-                        }
+                        var json = JsonConvert.SerializeObject(lookups, Formatting.Indented);
+                        File.WriteAllText(targetPath, json);
                     }
                 }
 

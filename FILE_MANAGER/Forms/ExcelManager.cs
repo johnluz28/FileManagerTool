@@ -81,7 +81,9 @@ namespace FILE_MANAGER.Forms
 
                     for (int col = 1; col <= colCount; col++)
                     {
-                        var lookups = new LookupsModel() { Items = new List<LookupsItemModel>() };
+                        var lookups = new LookupsModel();
+                        var lookUpItems = new List<LookupsItemModel>();
+
                         var lang = "en-US";
                         for (int row = 1; row <= rowCount; row++)
                         {
@@ -93,12 +95,14 @@ namespace FILE_MANAGER.Forms
                             var val = ws.Cells[row, col].Value.ToStringSafe().Trim();
                             var valEn = ws.Cells[row, 1].Value.ToStringSafe().Trim().Replace("amp;", "");
                             var id = wsLookUpEn.LookUps.Items.FirstOrDefault(c => c.Name == valEn).Id; // get id from en lookup source
-                            lookups.Items.Add(new LookupsItemModel()
+                            lookUpItems.Add(new LookupsItemModel()
                             {
                                 Id = id,
                                 Name = val,
                             });
                         }
+                        //sort lookups items by id
+                        lookups.Items = lookUpItems.OrderBy(i => i.Id)?.ToList();
                        //check destination paths folder
                         var destinationFolder = $@"{destination}/{ws.Name.ToLower().Trim()}";
                         if (!Directory.Exists(destinationFolder))
@@ -109,7 +113,6 @@ namespace FILE_MANAGER.Forms
                      
                         //create json file
                         var targetPath = $@"{destinationFolder}/{lang}.json";
-
                         var json = JsonConvert.SerializeObject(lookups, Formatting.Indented);
                         File.WriteAllText(targetPath, json);
                     }

@@ -74,11 +74,11 @@
     <Compile Include="Forms\AFFProductsFormater.Designer.cs">
       <DependentUpon>AFFProductsFormater.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ExcelManager.cs">
+    <Compile Include="Forms\LocalizationManager.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ExcelManager.Designer.cs">
-      <DependentUpon>ExcelManager.cs</DependentUpon>
+    <Compile Include="Forms\LocalizationManager.Designer.cs">
+      <DependentUpon>LocalizationManager.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\XmlToExcel.cs">
       <SubType>Form</SubType>
@@ -165,8 +165,8 @@
     <EmbeddedResource Include="Forms\AFFProductsFormater.resx">
       <DependentUpon>AFFProductsFormater.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ExcelManager.resx">
-      <DependentUpon>ExcelManager.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\LocalizationManager.resx">
+      <DependentUpon>LocalizationManager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\XmlToExcel.resx">
       <DependentUpon>XmlToExcel.cs</DependentUpon>

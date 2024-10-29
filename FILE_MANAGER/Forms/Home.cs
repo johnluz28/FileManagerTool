@@ -103,10 +103,10 @@ namespace FILE_MANAGER.Forms
             },
                new NavMenu()
             {
-                DisplayText = "EXCEL Manager (UL)",
+                DisplayText = "Localization Manager (UL)",
                 MenuClick = (sender, args) =>
                 {
-                    new ExcelManager().ShowDialog();
+                    new LocalizationManager().ShowDialog();
                 }
             }
         };

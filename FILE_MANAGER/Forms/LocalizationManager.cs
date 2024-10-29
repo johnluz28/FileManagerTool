@@ -98,7 +98,7 @@ namespace FILE_MANAGER.Forms
                             lang = rowHeader;
                             var val = ws.Cells[row, col].Value.ToStringSafe().Trim();
                             var valEn = ws.Cells[row, 1].Value.ToStringSafe().Trim().Replace("amp;", "");
-                            var id = wsLookUpEn.LookUps.Items.FirstOrDefault(c => c.Name == valEn).Id; // get id from en lookup source
+                            var id = wsLookUpEn.LookUps.Items.FirstOrDefault(c => c.Name.ToStringSafe().Trim() == valEn).Id; // get id from en lookup source
                             lookUpItems.Add(new LookupsItemModel()
                             {
                                 Id = id,
@@ -127,7 +127,7 @@ namespace FILE_MANAGER.Forms
         public async void ExcelToJsonFE(string excelSource, string destination)
         {
             var en_us_jsonPath = $@"{Application.StartupPath}\localization\fe\en-US.json";
-            var feSource = await FileHelper.ReadFileAsync<JObject>(en_us_jsonPath);
+           // var feSource = await FileHelper.ReadFileAsync<JObject>(en_us_jsonPath);
 
 
             FileInfo existingFile = new FileInfo(excelSource);
@@ -154,12 +154,12 @@ namespace FILE_MANAGER.Forms
                             var val = ws.Cells[row, col].Value.ToStringSafe().Trim();
                             var key = ws.Cells[row, 1].Value.ToStringSafe().Trim();
 
-                            JToken token = feSource[key];//check if key is valid
-                            if (token != null)
-                            {
-                                items.Add(new Tuple<string, string>(key, val));
-                            }
-                         
+                            //JToken token = feSource[key];//check if key is valid
+                            //if (token != null)
+                            //{
+                            //    items.Add(new Tuple<string, string>(key, val));
+                            //}
+                            items.Add(new Tuple<string, string>(key, val));
                         }
 
                         var translated = new JObject();

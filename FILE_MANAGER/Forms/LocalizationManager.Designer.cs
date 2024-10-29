@@ -1,6 +1,6 @@
 ﻿namespace FILE_MANAGER.Forms
 {
-    partial class ExcelManager
+    partial class LocalizationManager
     {
         /// <summary>
         /// Required designer variable.
@@ -35,6 +35,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.cmdBrowse = new System.Windows.Forms.Button();
             this.fileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.radTargetLookups = new System.Windows.Forms.RadioButton();
+            this.radTargetFE = new System.Windows.Forms.RadioButton();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cmdGenerate
@@ -100,11 +103,48 @@
             // 
             this.fileDialog.FileName = "openFileDialog1";
             // 
-            // ExcelManager
+            // radTargetLookups
+            // 
+            this.radTargetLookups.AutoSize = true;
+            this.radTargetLookups.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radTargetLookups.Location = new System.Drawing.Point(208, 125);
+            this.radTargetLookups.Name = "radTargetLookups";
+            this.radTargetLookups.Size = new System.Drawing.Size(84, 22);
+            this.radTargetLookups.TabIndex = 43;
+            this.radTargetLookups.TabStop = true;
+            this.radTargetLookups.Text = "Lookups";
+            this.radTargetLookups.UseVisualStyleBackColor = true;
+            // 
+            // radTargetFE
+            // 
+            this.radTargetFE.AutoSize = true;
+            this.radTargetFE.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radTargetFE.Location = new System.Drawing.Point(157, 125);
+            this.radTargetFE.Name = "radTargetFE";
+            this.radTargetFE.Size = new System.Drawing.Size(45, 22);
+            this.radTargetFE.TabIndex = 42;
+            this.radTargetFE.TabStop = true;
+            this.radTargetFE.Text = "FE";
+            this.radTargetFE.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(18, 125);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(133, 20);
+            this.label5.TabIndex = 41;
+            this.label5.Text = "target translation:";
+            // 
+            // LocalizationManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(582, 209);
+            this.Controls.Add(this.radTargetLookups);
+            this.Controls.Add(this.radTargetFE);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.cmdBrowse);
             this.Controls.Add(this.cmdGenerate);
             this.Controls.Add(this.txtDestination);
@@ -113,9 +153,9 @@
             this.Controls.Add(this.label4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MinimizeBox = false;
-            this.Name = "ExcelManager";
+            this.Name = "LocalizationManager";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Excel Manager (UL)";
+            this.Text = "Localization Manager (UL)";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -129,5 +169,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button cmdBrowse;
         private System.Windows.Forms.OpenFileDialog fileDialog;
+        private System.Windows.Forms.RadioButton radTargetLookups;
+        private System.Windows.Forms.RadioButton radTargetFE;
+        private System.Windows.Forms.Label label5;
     }
 }
